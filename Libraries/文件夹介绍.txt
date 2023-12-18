@@ -1,0 +1,4 @@
+├─Libraries :  存放第3方提供的库或其源代码，这些代码一般是成熟的并经过验证的代码。
+│  ├─CMSIS :  CMSIS是ARM公司与多家不同的芯片和软件供应商一起紧密合作定义的，提供了内核与外设、实时操作系统和中间设备之间的通用接口。
+│  ├─STM32F10x_StdPeriph_Driver : STM32F10X系列MCU的标准固件库源代码
+│  └─STM32_USB-FS-Device_Driver : USB Device Library

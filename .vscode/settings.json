@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "include.h": "c",
+        "bsp.h": "c",
+        "adc.h": "c",
+        "pwm_app.h": "c",
+        "delay.h": "c"
+    }
+}

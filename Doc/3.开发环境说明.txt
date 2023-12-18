@@ -1,0 +1,14 @@
+
+
+例程文件夹说明
+├─Libraries :  存放第3方提供的库或其源代码，这些代码一般是成熟的并经过验证的代码。
+│  ├─CMSIS :  CMSIS是ARM公司与多家不同的芯片和软件供应商一起紧密合作定义的，提供了内核与外设、实时操作系统和中间设备之间的通用接口。
+│  ├─STM32F10x_StdPeriph_Driver : STM32F10X系列MCU的标准固件库源代码
+│  └─STM32_USB-FS-Device_Driver : USB Device Library
+│
+├─User      :  这里存放用户自己编写的源代码
+│  ├─bsp    :  板级支持包（Board Surport Packet），也就是硬件底层驱动程序. 该层介于固件库和应用程序之间。
+│  └─fonts  :  存放点阵字库常量数组
+│
+└─project   :  这里存放各类开发工具的工程文件，编译过程中的临时文件和最终HEX文件都放在此文件夹
+    └─MDK-ARM(uV4) : KEIL公司MDK uVision 4工程文件夹
